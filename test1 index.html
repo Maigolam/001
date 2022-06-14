@@ -1,33 +1,43 @@
-<body style="margin: 0;display: flex;flex-direction: column;align-items: center;">
+<body>
+    <div style="background-color: #f1f1f1; text-align: center; padding: 40px">
+      <img alt="菠蘿包" src="./logo.png" width="80px" height="80px">
+      <!-- <h1>菠蘿包"的个人网站</h1> -->
+    </div>
+    <article style="
+        max-width: 760px;
+        margin: 30px auto;
+        padding: 15px;
+        color: rgb(36, 41, 46);
+        font-size: 17px;
+        line-height: 1.7;
+        text-size-adjust: 100%;
+      ">
+      <p>
+        你好啊，我是<author>菠蘿包"</author>
+      </p>
 
-        <touxianglan style="width: 100%;height: 160px;background-color: powderblue;display: flex;align-items: center;justify-content: center;"><img src="./我的第一個試網.index_files/女孩Hi.png" alt="女孩" width="120" height="120"></touxianglan> 
-    
-        <zhuneirong style="display: block;padding: 30px;max-width: 700px;min-height: 70vh;width: 90%;letter-spacing: 1px;line-height: 1.7;">
-        <p class="hezi">您好,我是菠蘿包的媽媽,</p>
-        <p class="hezi">是一名家庭主婦,</p>      
-        <p class="hezi">菠蘿包,今年9歲。</p>
-        <p class="hezi">是一個漂亮可愛的小女孩,</p>
-        <p class="hezi">還有一隻乖巧懂人的小胖貓,</p>
-        <p class="hezi">看到我的你呢?</p>
-        <p class="hezi">也來介紹一下自己吧!</p>
-        
-        </zhuneirong>
-
-
-    <dlbulan style="
-          
-    
-        width: 100%;
-        height: 30px;
-        background-color: powderblue;
-        display: flex;
-        align-items: center;
-        justify-content: center;">
-
-        <p>內容純屬課程練習, 如有雷同, 就屬巧合</p>
-    
-    </dlbulan>
-    
-     
+      <p>
+        如要加入，请<a target="_blank" rel="noopener noreferrer" href="https://metaisland.feishu.cn/docs/doccn1QH9qC5URIli9m2gHSIkme?from=from_copylink">点击这里认真阅读《元岛公约》</a>，自觉维护大家的学习和交友环境。
+      </p>
+    </article>
+    <footer style="
+        margin-top: 60px;
+        background-color: #f1f1f1;
+        text-align: center;
+        padding: 40px;
+        font-size: 12px;
+      ">
+      <p style="color: #666">Copyright © kangwenchang.com</p>
+      <a style="color: #666" href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">沪ICP备17023674号-2
+      </a>
+    </footer>
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", function () {
+          navigator.serviceWorker.register("sw.js");
+        });
+      }
+    </script>
+  
 
 </body>
